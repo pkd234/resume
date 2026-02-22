@@ -1,444 +1,256 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <title>Pankaj Kumar</title>
-    <link rel="shortcut icon" type="image/png" href="images/icons/fevicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content=#000000>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67305507-4"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+<meta charset="UTF-8">
+<title>Pankaj Kumar | Lead Mobile Engineer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 
-        gtag('config', 'UA-67305507-4');
-    </script>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+header {
+  text-align: center;
+  padding: 80px 0 60px;
+}
+
+header h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+header p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #38bdf8;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 28px;
+  background: #38bdf8;
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+}
+
+section {
+  margin-top: 80px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  border-left: 4px solid #38bdf8;
+  padding-left: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  background: #273549;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.tech-list span {
+  display: inline-block;
+  background: #1e293b;
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin: 6px;
+  font-size: 14px;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 6px;
+  color: #cbd5e1;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 40px 0;
+  text-align: center;
+  border-top: 1px solid #1e293b;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+@media(max-width: 600px){
+  header h1 {
+    font-size: 32px;
+  }
+}
+</style>
 </head>
 
 <body>
-    <div class="loader">
-        <div class="inner"></div>
+
+<div class="container">
+
+<header>
+  <h1>Pankaj Kumar</h1>
+  <p>Lead Mobile Engineer | Flutter Architect | AI Integrations</p>
+  <a href="mailto:pkd.234@gmail.com" class="btn">Contact Me</a>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    Lead Engineer with 6+ years of experience building scalable mobile applications 
+    using Flutter and Native Android (Kotlin & Java). Experienced in clean architecture, 
+    SDK development, CI/CD pipelines, and AI-powered integrations using LangChain 
+    and OpenRouter. Passionate about building high-performance systems and 
+    intelligent mobile platforms.
+  </p>
+</section>
+
+<section>
+  <h2>Mobile Expertise</h2>
+  <div class="tech-list">
+    <span>Flutter</span>
+    <span>Kotlin</span>
+    <span>Java</span>
+    <span>Swift</span>
+    <span>Objective-C</span>
+    <span>Unity Integration</span>
+    <span>Flutter Bloc</span>
+    <span>MobX</span>
+    <span>Clean Architecture</span>
+    <span>CI/CD</span>
+  </div>
+</section>
+
+<section>
+  <h2>AI & Backend</h2>
+  <div class="tech-list">
+    <span>LangChain</span>
+    <span>OpenRouter</span>
+    <span>OpenCode CLI</span>
+    <span>Express.js</span>
+    <span>Flask</span>
+    <span>PostgreSQL</span>
+    <span>MongoDB</span>
+    <span>Prompt Engineering</span>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>🏢 Employment Listing Apps – Infoedge</h3>
+      <p><strong>Role:</strong> Lead Engineer</p>
+      <ul>
+        <li>Managed large-scale employment listing mobile apps</li>
+        <li>Redesigned architecture using Clean Architecture</li>
+        <li>Implemented Bloc & MobX state management</li>
+        <li>Integrated Shorebird for OTA updates</li>
+        <li>Led feature planning, estimations & code reviews</li>
+      </ul>
     </div>
 
-    <nav id="navigation" class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse justify-content-center navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#stats">Stats</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="blog-link" href="https://www.tictechtech.com/blog">Blog</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <section id="about" class="about_profile">
-        <div class="container">
-            <img class="aboutImage" src="images/profile.png" alt="">
-        </div>
-        <div class="heading">
-            <h1>PANKAJ KUMAR</h1>
-        </div>
-        <div class="sub_heading">
-            <h5>Software Developer</h5>
-        </div>
-        <div class="resume">
-            <a href="files/resume.pdf" class="resumeButton">DOWNLOAD RESUME</a>
-        </div>
-        </div>
-    </section>
-    <section class="about_text">
-        <div class="container">
-            <h3>Hey there,</h3>
-            <p class="about_para">This is PANKAJ KUMAR from New Delhi, India. I am a Software developer with knowlegde of various technoligies 
-                like Android, Python, Ruby on rails, Machine Learning.
-                <b>B. Tech. in Information Technology</b> from <b>Ch. Brahm Prakash Government Engineering College.</b>
-            </p>
-            <p class="about_para">Apart from being a developer I used to write tech articles on my blog. I have
-                experience of more than 4 years in blogging. <a href="https:www.tictechtech.com">TicTechTech</a>
-            </p>
-        </div>
-    </section>
-
-    <div id="skills" class="skillsSection">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <hr class="line" width="40%">
-                    <h2>TECHNICAL SKILLS</h2>
-                    <p>A representation of my proficiency in each skill</p>
-                </div>
-            </div>
-        </div>
+    <div class="card">
+      <h3>🎮 Multi Gaming Platform – Adda52</h3>
+      <p><strong>Role:</strong> Senior Software Engineer</p>
+      <ul>
+        <li>Built gaming platform (Ludo, Rummy, Fantasy)</li>
+        <li>Integrated Unity & React Native modules into Flutter</li>
+        <li>Designed scalable mobile architecture</li>
+        <li>Managed CI/CD and native dependencies</li>
+      </ul>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">ANDROID
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="background-color:#1df79a;width:80%"
-                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                </div> <br>
-            </div>
-            <div class="col-md-6">JAVA
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="background-color:#eff317;width: 90%;"
-                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div> <br>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">KOTLIN
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="background-color: #ff86e4;width: 60%;"
-                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                </div> <br>
-            </div>
-            <div class="col-md-6">FLUTTER
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="background-color:#fd6400;width: 50%"
-                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                </div> <br>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">PYTHON
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="background-color:#84cd9d;width: 70%"
-                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                </div> <br>
-            </div>
-            <div class="col-md-6">WEB(FLASK, RUBY ON RAILS)
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="background-color:#a06cf4;width: 76%"
-                        aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
-                </div> <br>
-            </div>
-        </div>
-        WordPress
-        <div class="progress">
-            <div class="progress-bar" role="progressbar" style="background-color:rgba(255, 63, 63, 0.82);width: 90%"
-                aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
-        </div> <br><br><br>
-    </div>
-    <div id="stats" class="statsSection">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <hr class="line" width="40%">
-                    <h2>PERSONAL STATS</h2>
-                    <p>Some stats related to my experience and projects.</p>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="squareItem">
-                        <div class="squareInnerContainer">
-                            <div class="squareIcon">
-                                <i class="fab fa-android"></i>
-                            </div>
-                            <div class="squareContent">
-                                <h2> <span class="counter">20+</span><span>+</span></h2>
-                                <h3>Android Projects</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="squareItem">
-                        <div class="squareInnerContainer">
-                            <div class="squareIcon">
-                                <i class="fas fa-terminal"></i>
-                            </div>
-                            <div class="squareContent">
-                                <h2><span class="counter">3</span></h2>
-                                <h3>Android Libraries</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="squareItem">
-                        <div class="squareInnerContainer">
-                            <div class="squareIcon">
-                                <i class="fas fa-download"></i>
-                            </div>
-                            <div class="squareContent">
-                                <h2> <span class="counter">80</span><span>K+</span></h2>
-                                <h3>Downloads</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="squareItem">
-                        <div class="squareInnerContainer">
-                            <div class="squareIcon">
-                                <i class="fa fa-globe"></i>
-                            </div>
-                            <div class="squareContent">
-                                <h2 class="counter">5+</h2>
-                                <h3>Websites</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="portfolio" class="statsSection">
-        <div class="container">
-            <div class="row">
-                <div class="heading">
-                    <hr class="line" width="40%">
-                    <h2>PORTFOLIO</h2>
-                </div>
-                <div class="filter">
-                    <ul id="filters">
-                        <li><a href="#" data-filter="*" class="current">ALL</a></li>
-                        <li><a href="#" class="filter-apps" data-filter=".apps">APPS</a></li>
-                        <li><a href="#" class="filter-websites" data-filter=".websites">WEBSITES</a></li>
-                        <li><a href="#" class="filter-others" data-filter=".others">OTHERS</a></li>
-                    </ul>
-                </div>
-                <div class="itemsContainer">
-                    <ul class="row items">
-                        <li onclick="" class="apps col-6 col-sm-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/thumbnails/totp.png">
-                                <div class="icons">
-                                    <a href="images/thumbnails/totp.png" title="View Image" class="openButton"
-                                        data-fancybox
-                                        data-caption="App for generting 2fa codes with many additional features like widgets, chrome extension, in app purchase etc">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a href="https://play.google.com/store/apps/details?id=com.authenticator.authservice2"
-                                        target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                        <li onclick="" class="apps col-6 col-sm-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/thumbnails/music_player.png">
-                                <div class="icons">
-                                    <a href="images/thumbnails/music_player.png" title="View Image" class="openButton"
-                                        data-fancybox
-                                        data-caption="Music Player with mutiple themes, mutiple shuffle features">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a href="#"
-                                        target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                        <li onclick="" class="apps col-6 col-sm-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/thumbnails/photo_editor.png">
-                                <div class="icons">
-                                    <a href="images/thumbnails/photo_editor.png" title="View Image" class="openButton"
-                                        data-fancybox
-                                        data-caption="A photo editing app with features like stickers, emoji etc">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a href="#"
-                                        target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                        <li onclick="" class="apps col-6 col-sm-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/thumbnails/fizz_bizz.png">
-                                <div class="icons">
-                                    <a href="images/thumbnails/fizz_bizz.png" title="View Image" class="openButton"
-                                        data-fancybox
-                                        data-caption="A notes or todo app with feature to push notes to status bar">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a href="https://play.google.com/store/apps/details?id=com.tictechtech.frizzbizz"
-                                        target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                        <li onclick="" class="apps col-6 col-sm-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/thumbnails/trivia_app.png">
-                                <div class="icons">
-                                    <a href="images/thumbnails/trivia_app.png" title="View Image" class="openButton"
-                                        data-fancybox
-                                        data-caption="A quiz app with multiple quiz type question and quiz history feature">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a href=""
-                                        target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                        <li onclick="" class="apps col-6 col-sm-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/thumbnails/screen_recording.png">
-                                <div class="icons">
-                                    <a href="images/thumbnails/screen_recording.png" title="View Image" class="openButton"
-                                        data-fancybox
-                                        data-caption="A simple screen recording app with one click recording feature">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a href="#"
-                                        target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                        <li onclick="" class="apps col-6 col-sm-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/thumbnails/zomato_app.png">
-                                <div class="icons">
-                                    <a href="images/thumbnails/zomato_app.png" title="View Image" class="openButton"
-                                        data-fancybox data-caption="A app using zomato api with search feature and deep link integration of zomato">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a href="https://drive.google.com/open?id=1QdhZIf_W-LlVwXhEGK0l86obKzxFPUI9" target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                        <li onclick="" class="apps ios col-6 col-sm-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/thumbnails/pro_pass.png">
-                                <div class="icons">
-                                    <a href="images/thumbnails/pro_pass.png" title="View Image" class="openButton"
-                                        data-fancybox
-                                        data-caption="A password and website noted manager app.">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a href="https://play.google.com/store/apps/details?id=com.binaryboot.pmservice"
-                                        target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                        <li onclick="" class="websites col-6 col-sm-12 col-md-6 col-lg-6">
-                            <div class="item">
-                                <img src="images/thumbnails/website.png">
-                                <div class="icons">
-                                    <a href="images/thumbnails/website.png" title="View Image" class="openButton"
-                                        data-fancybox
-                                        data-caption="Website for latest tech related post and coding tricks">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a href="https:www.tictechtech.com"
-                                        target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                        <li onclick="" class="others col-6 col-sm-12 col-md-6 col-lg-6">
-                            <div class="item">
-                                <img src="images/thumbnails/chrome_extension.png">
-                                <div class="icons">
-                                    <a href="images/thumbnails/chrome_extension.png" title="View Image" class="openButton"
-                                        data-fancybox
-                                        data-caption="An extension for my TOTP app that connects the app with chrome extension.">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                    <a href="https://chrome.google.com/webstore/detail/totp-authenticator/ibpjepoimpcdofeoalokgpjafnjonkpc"
-                                        target="_blank" rel="noopener" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <div class="card">
+      <h3>📊 Cross-Platform Behavior Analytics SDK</h3>
+      <ul>
+        <li>Developed analytics SDK for Android & iOS</li>
+        <li>Implemented using Java, Kotlin, Swift & Objective-C</li>
+        <li>Event tracking & performance monitoring engine</li>
+        <li>Integrated into production-scale applications</li>
+      </ul>
     </div>
 
-    <div id="contact" class="contactSection">
-        <div class="col-md-12 text-center">
-            <hr class="line" width="40%">
-            <h2>FOUND MY WORK INTERESTING? </h2>
-            <p>Would love to hear from you!</p>
-            <a href="mailTo:pkd.234@gmail.com" class="mailButton">GET IN TOUCH</a>
-        </div>
-        <div class="social">
-            <a href="https://www.twitter.com/i_am_pekay" class="twitter" target="_blank" rel="noopener"><i
-                    class="fab fa-twitter fa-2x"></i></a>
-            <a href="https://www.github.com/pkd234" class="github" target="_blank" rel="noopener"><i
-                    class="fab fa-github fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/pankaj-kumar-b164aba5/" class="linkedin" target="_blank" rel="noopener"><i
-                    class="fab fa-linkedin fa-2x"></i></a>
-            <a href="https://www.youtube.com/channel/UCV30m0Yu7Lb6f3ZKCanCnVg" class="youtube"
-                target="_blank" rel="noopener"><i class="fab fa-youtube fa-2x"></i></a>
-        </div>
+    <div class="card">
+      <h3>🤖 AI / LLM Tooling & Experiments</h3>
+      <ul>
+        <li>Built LangChain-based workflows</li>
+        <li>Integrated multi-model APIs via OpenRouter</li>
+        <li>Used OpenCode CLI for LLM experimentation</li>
+        <li>Token cost analysis & prompt optimization</li>
+      </ul>
     </div>
 
+  </div>
+</section>
 
-    <div class="copyrightSection">
-        <div class="col-md-12 text-center">
-            <p>&copy; 2019 Pankaj Kumar. All rights reserved.</p>
-        </div>
-    </div>
+<section>
+  <h2>Leadership & Engineering Practices</h2>
+  <ul>
+    <li>Architecture design & system scalability planning</li>
+    <li>Code reviews & engineering mentorship</li>
+    <li>Feature estimation & sprint planning</li>
+    <li>Performance optimization & crash reduction</li>
+    <li>Cross-team collaboration & client communication</li>
+  </ul>
+</section>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/security.js"></script>
-    <script src="js/jquery.superslides.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script src="js/countUp.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
-    <script src="js/countUp-jquery.js"></script>
-    <script src="js/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+<section>
+  <h2>Contact</h2>
+  <p>Email: pkd.234@gmail.com</p>
+  <p>Location: New Delhi, India</p>
+</section>
+
+<footer>
+  © 2026 Pankaj Kumar | Lead Mobile Engineer | Built with HTML
+</footer>
+
+</div>
+
 </body>
-
 </html>
